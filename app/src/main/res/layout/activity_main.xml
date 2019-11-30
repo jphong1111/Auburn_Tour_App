@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="380dp"
+        android:layout_height="180dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="8dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
+
+        <ImageView
+            android:layout_width="360dp"
+            android:layout_height="180dp"
+            android:src="@drawable/main_auburnlogo"
+            android:layout_gravity="center"/>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/bottom_layout"
+        android:layout_width="match_parent"
+        android:layout_height="500dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="15dp"
+
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="8dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout2">
+
+        <Button
+            android:id="@+id/SubButton1"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="45dp"
+            android:gravity="center"
+            android:text="Major / Depararment"
+            android:background="#f68026"
+            android:textColor="#ffffff "
+            android:textStyle="bold"
+
+
+
+            />
+
+        <Button
+            android:id="@+id/SubButton2"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="45dp"
+            android:gravity="center"
+            android:text="Maps"
+            android:background="#f68026"
+            android:textColor="#ffffff "
+            android:textStyle="bold"
+            />
+
+        <Button
+            android:id="@+id/SubButton3"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="45dp"
+            android:gravity="center"
+            android:text="Etiquette"
+            android:background="#f68026"
+            android:textColor="#ffffff "
+            android:textStyle="bold"
+            />
+
+        <Button
+            android:id="@+id/SubButton4"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="45dp"
+            android:gravity="center"
+            android:text="Contacts"
+            android:background="#f68026"
+            android:textColor="#ffffff "
+            android:textStyle="bold"
+
+
+            />
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

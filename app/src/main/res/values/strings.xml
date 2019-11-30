@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">AuburnTour</string>
+    <string-array name="major">
+        <item>Agricture</item>
+        <item>Accountancy</item>
+        <item>Aerospace Engineering</item>
+        <item>Agricultural Business / Economics</item>
+        <item>Biochemistry</item>
+        <item>Computer Science</item>
+        <item>Chemical Engineering</item>
+        <item>Chemistry</item>
+        <item>Civil Engineering</item>
+
+
+    </string-array>
+
+
+    <string-array name="resident">
+        <item>Alabma-Resident</item>
+        <item>Non-Resident</item>
+        <item>Auburn Online (Undergraduate Programs)</item>
+    </string-array>
+
+
+    <string-array name="Level">
+        <item>Undergraduate</item>
+        <item>graduate</item>
+    </string-array>
+</resources>
