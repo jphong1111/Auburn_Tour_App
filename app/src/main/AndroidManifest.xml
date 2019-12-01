@@ -6,9 +6,9 @@
     <application
 
         android:allowBackup="true"
-        android:icon="@mipmap/ic_launcher"
+        android:icon="@mipmap/ic_auburn_icon_round"
         android:label="@string/app_name"
-        android:roundIcon="@mipmap/ic_launcher_round"
+        android:roundIcon="@mipmap/ic_auburn_icon_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
 
@@ -16,16 +16,23 @@
             android:value="@string/map_key"/>
 
 
+        <activity android:name=".Flash_Activity"
+            android:theme="@style/SplashTheme"
+            android:screenOrientation="portrait"
+            >
 
+                <intent-filter>
+                    <action android:name="android.intent.action.MAIN" />
+                    <action android:name="android.intent.action.VIEW"/>
+                    <category android:name="android.intent.category.LAUNCHER" />
+
+                </intent-filter>
+
+        </activity>
 
 
         <activity android:name="com.example.AuburnTour.MainActivity">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-                <action android:name="android.intent.action.VIEW"/>
-                <category android:name="android.intent.category.LAUNCHER" />
 
-            </intent-filter>
         </activity>
         <activity android:name="com.example.AuburnTour.sub1_Activity"/>
         <activity android:name="com.example.AuburnTour.sub12_Activity"/>
